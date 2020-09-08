@@ -15,8 +15,6 @@ const IncomeExpenses = () => {
     -1
   ).toFixed(2);
 
-  console.log(amounts, income, expenses);
-
   return (
     <div className="inc-exp-container">
       <div>

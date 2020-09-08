@@ -16,6 +16,8 @@ const AddTransaction = () => {
     };
 
     addTransaction(newTransaction);
+    setText("");
+    setAmount(0);
   };
 
   return (
@@ -29,6 +31,7 @@ const AddTransaction = () => {
             value={text}
             onChange={(e) => setText(e.target.value)}
             placeholder="Enter text..."
+            autoFocus
           />
         </div>
         <div className="form-control">
